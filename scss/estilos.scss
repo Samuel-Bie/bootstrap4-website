@@ -1,0 +1,119 @@
+html{
+	font-size: 15px;
+}
+
+.bemvindo{
+	background: url("../images/bem-vindo.jpg");
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+.header{
+    background: rgba(0,0,0,0.28);
+}
+.fixed-top{
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	font-size: 1.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-align: center;
+    margin: .2rem 0;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+	color: #fff; 
+	background-color: #F05F40;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+	background-color: #F05F40;
+}
+.texto-bemvindo{
+	color: #fff;
+	margin-top: 3rem;
+	text-align: center;
+}
+.btn-primary{
+	background-color: #F05F40;
+	border-color: rgba(146, 22, 22, 0.5);
+	transition: all .5s ease;
+	text-transform: uppercase;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    background-color: #FB6463;
+    background-image: none;
+    border-color: rgba(146, 22, 22, 0.5);
+}
+/*Estilos bloco quem somos*/
+.quem-somos{
+	background-color: #F05F40;
+	color: #fff;
+	text-align: center;
+}
+.img-fluid {
+    display: flex;
+}
+.btn.btn-lg.bg-faded {
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #000;
+}
+
+.servicos{
+	text-align: center;
+}
+.servicos .fa {
+    color: #F05F3F;
+    font-size: 5rem;
+}
+.servicos .h3 {
+	font-weight: bold;
+}
+
+.projetos{
+	text-align: center;
+	color: #fff;
+	background: #424141;
+}
+.projetos img{
+	transition: all .5s ease;
+    min-width: 100%;
+}
+.projetos a{
+	display: block;
+	overflow: hidden;
+}
+.projetos a:hover img{
+	transform: scale(1.5);
+}
+
+.footer{
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	html{
+        font-size: 16px;
+    }
+	#menuprincipal {
+    	
+    }
+	.bemvindo{
+    	background:url("../images/bem-vindo-grande.jpg");
+    	background-size:cover;
+    }
+}
